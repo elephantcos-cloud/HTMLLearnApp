@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HTML শিখি</string>
+    <string name="channel_study">পড়ার রিমাইন্ডার</string>
+    <string name="channel_streak">Streak সতর্কতা</string>
+    <string name="channel_achievement">অর্জন</string>
+</resources>
