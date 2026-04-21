@@ -786,7 +786,7 @@ fun ProfileScreen(
                     horizontalArrangement = Arrangement.spacedBy(10.dp)
                 ) {
                     StatCard("পাঠ সম্পন্ন", "${state.user?.totalLessonsCompleted ?: 0}", { BookIcon(color = AccentBlue, size = 20.dp) }, AccentBlue, Modifier.weight(1f))
-                    StatCard("Quiz পাস", "${state.user?.totalQuizzesPassed ?: 0}", { StarIcon(color = AccentYellow), }, AccentYellow, Modifier.weight(1f))
+                    StatCard("Quiz পাস", "${state.user?.totalQuizzesPassed ?: 0}", { StarIcon(color = AccentYellow) }, AccentYellow, Modifier.weight(1f))
                 }
             }
             item {
